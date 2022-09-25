@@ -70,7 +70,7 @@
   - Tools yang digunakan untuk membuat HTML
     - Browser (Chrome)
     - Code Editor (Visual Studio Code)
-  - HTML Stucture
+  - HTML Structure
   ``` 
 <!DOCTYPE html>
 <html lang="en">
@@ -187,8 +187,70 @@
   - Algoritma adalah sederetan langkah-langkah logis yang disusun secara sistematis untuk memecahkan suatu masalah.
   - Struktur data adalah cara penyimpanan , pengorganisasian , dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.
   - Manfaat Algoritma
-    - Programming itu adalah algoritma dan struktur data
-    - Data struktur digunakan untuk mengelola/manajemen sebuah data dan Algoritma yang akan menyelesaikan suatu permasalahan menggunakan data tersebut.
-  - Contoh Algoritma sederhana
-
+    - Membantu menyederhanakan suatu program yang rumit dan juga besar.
+    - Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
+  - Contoh Algoritma sederhana menggunakan javascript
   
+   ```
+  var nama = "Reza";
+console.log("Nama Saya :" + nama);
+  
+  Output : 
+  Nama Saya :Reza
+  ```
+  - Pseudocode adalah menuliskan algoritma dengan umumnya bahasa inggris sebelum kita implementasikan ke bahasa pemograman tertentu.
+  - Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
+  - Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi. 
+  - Komputer dapat melakukan sebuah proses yang sama berulang-ulang.
+  - Big O Notation adalah sebuah cara atau metode untuk melakukan analisa terhadap sebuah algoritma pemrograman terhadap waktu eksekusi.
+  - Contoh Struktur Data menggunakan Javascript
+  ```
+  let buah = {
+    nama: 'apel',
+    warna: ['merah', 'hijau'],
+}
+ console.log(buah)
+  
+  Output : 
+  { nama: 'apel', warna: [ 'merah', 'hijau' ] }
+  ```
+## Day 5 : JS Dasar Conditional & Looping
+  - Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
+  ```
+  for(let i = 0; i < 100; i++){
+    document.write("<p>User " + i + "</p>")
+  }
+  ```
+                         
+  > - Hitungan akan dimulai dari ``0 (i = 0);``
+  > - Hitungannya sampai berapa? Sampai ``i < 10;``
+  > - Lalu di setiap perulangan ``i`` akan bertambah ``+1 (i++).``
+  ```
+  for(counter = 0; counter < 10; counter+=2){
+    document.write("<p>Perulangan ke-"+counter+"</p>");
+}
+  ```
+  > Melakukan perulangan menggunakan For Loop dimulai dari nol ``0``, Lalu di setiap perulangan nilai variabel couter akan ditambah ``2``  ``(counter+=2)``.
+  ```
+  let x = 1;
+ 
+while( x <=10 ) {
+ console.log(x);
+ x++;
+}
+  ```
+  > While Loop akan melakukan perulangan kalau kondisi (syarat) terpenuhi.
+  
+  ```
+  let x = 1;
+ 
+do
+{
+ console.log(x);
+ x++;
+}
+while (x <= 7);
+  ```
+  > Do While melakukan perulangan dulu, kemudian memeriksa kondisinya atau sayaratnya.
+  
+  - Nested Loop yaitu jika kita membuat looping didalam looping.
