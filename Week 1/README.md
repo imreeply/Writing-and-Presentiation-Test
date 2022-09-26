@@ -231,6 +231,54 @@ console.log("Nama Saya :" + nama);
   { nama: 'apel', warna: [ 'merah', 'hijau' ] }
   ```
 ## Day 5 : JS Dasar Conditional & Looping
+### Conditional
+  - Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
+   > - Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut
+   > - Yang dicek adalah apakah kondisi tersebut TRUE (benar). Jika TRUE maka code didalam kondisi tersebut dijalankan.
+  - Contoh Conditional
+  ```
+   let haus = true;
+if (haus) {
+  console.log("Jika haus kamu akan minum = " + haus);
+}
+
+  
+  Output : Jika haus kamu akan minum = true
+  ```
+  > Contoh IF Statement
+  
+  ```
+  var angka = 17;
+if (angka % 2 == 0) {
+  console.log("Angka adalah bilangan Genap");
+} else {
+  console.log("Angka adalah bilangan Ganjil");
+}
+  
+  Output : Angka adalah bilangan Ganjil
+
+  ```
+  > Else akan mengeksekusi sebuah statement/code jika suatu kondisi bernilai FALSE.
+  
+  ```
+ let stopLight = "kuning";
+
+if (stopLight === "merah") {
+  console.log("berhenti!");
+} else if (stopLight === "kuning") {
+  console.log("pelan pelan");
+} else if (stopLight === "hijau") {
+  console.log("jalan");
+} else {
+  console.log("TIdak diketahui");
+}
+  
+  Output : pelan pelan
+
+  ```
+  > Else … If statement dapat kita gunakan jika kita mempunyai berbagai kondisi.
+
+### Looping
   - Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
   ```
   for(let i = 0; i < 100; i++){
@@ -242,13 +290,14 @@ console.log("Nama Saya :" + nama);
   > - Hitungannya sampai berapa? Sampai ``i < 10;``
   > - Lalu di setiap perulangan ``i`` akan bertambah ``+1 (i++).``
   ```
-  for(counter = 0; counter < 10; counter+=2){
-    console.log(counter);
+  for (counter = 0; counter < 10; counter += 2) {
+  console.log(counter);
 }
+
   ```
   > Melakukan perulangan menggunakan For Loop dimulai dari nol ``0``, Lalu di setiap perulangan nilai variabel couter akan ditambah ``2``  ``(counter+=2)``.
   ```
-  let x = 1;
+let x = 1;
  
 while( x <=10 ) {
  console.log(x);
