@@ -182,7 +182,7 @@
   - **flex-shrink** digunakan untuk memperkecil size suatu item child secara relatif terhadap item child lainnya.
   - **flex-basis** digunakan untuk mengatur width setiap item child.
   
-  ## Day 4 : Algoritma Intro to Javascript
+  ## Day 4 : Algoritma dan Data Struktur
   ### Algortima
   - Algoritma adalah sederetan langkah-langkah logis yang disusun secara sistematis untuk memecahkan suatu masalah.
   - Struktur data adalah cara penyimpanan , pengorganisasian , dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.
@@ -218,8 +218,8 @@ console.log("Nama Saya :" + nama);
   - Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
   ```
   for(let i = 0; i < 100; i++){
-    document.write("<p>User " + i + "</p>")
-  }
+  console.log(i)
+}
   ```
                          
   > - Hitungan akan dimulai dari ``0 (i = 0);``
@@ -227,7 +227,7 @@ console.log("Nama Saya :" + nama);
   > - Lalu di setiap perulangan ``i`` akan bertambah ``+1 (i++).``
   ```
   for(counter = 0; counter < 10; counter+=2){
-    document.write("<p>Perulangan ke-"+counter+"</p>");
+    console.log(counter);
 }
   ```
   > Melakukan perulangan menggunakan For Loop dimulai dari nol ``0``, Lalu di setiap perulangan nilai variabel couter akan ditambah ``2``  ``(counter+=2)``.
