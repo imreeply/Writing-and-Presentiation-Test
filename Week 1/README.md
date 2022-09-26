@@ -182,7 +182,7 @@
   - **flex-shrink** digunakan untuk memperkecil size suatu item child secara relatif terhadap item child lainnya.
   - **flex-basis** digunakan untuk mengatur width setiap item child.
   
-## Day 4 : Algoritma dan Data Struktur
+## Day 4 : Algoritma dan Data Struktur | Intro to Javascript
 ### Algortima
   - Algoritma adalah sederetan langkah-langkah logis yang disusun secara sistematis untuk memecahkan suatu masalah.
   
@@ -214,11 +214,47 @@ console.log("Nama Saya :" + nama);
   Output : 
   Nama Saya :Reza
   ```
-  - Pseudocode adalah menuliskan algoritma dengan umumnya bahasa inggris sebelum kita implementasikan ke bahasa pemograman tertentu.
-  - Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
-  - Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi. 
-  - Komputer dapat melakukan sebuah proses yang sama berulang-ulang.
   - Big O Notation adalah sebuah cara atau metode untuk melakukan analisa terhadap sebuah algoritma pemrograman terhadap waktu eksekusi.
+### Javascript 
+  > Javacript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website.
+  - Syntax dan Statement
+     - Syntax bisa dianalogikan seperti kosa kata (vocabulary) dan tata cara (grammar) pada bahasa pemograman.
+     - Kita menggunakan syntax tertentu untuk membuat statement program, instruksi untuk djalankan/dieksekusi oleh web browser, compiler, ataupun intrepreter
+  - Console log adalah tempat kita untuk cek logic pemograman web yang kita kembangkan.
+  - Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming.
+    - number 
+      > "Tipe data number adalah tipe data yang mengandung semua angka termasuk angka desimal."
+    - string 
+      > "Tipe data string adalah grup karakter yang ada pada keyboard laptop/PC kita yaitu letters (huruf), number (angka), spaces (spasi), symbol, dan lainnya."
+    - boolean 
+      > "Tipe data boolean adalah tipe data yang hanya mempunyai 2 buah nilai."
+    - null 
+      > "Tipe data null adalah tipe data yang diartikan bahwa sebuah variable/data tidak memiliki nilai."
+    - undefined 
+      > "Tipe data undefined adalah tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai."
+    - object 
+      > "Tipe data object adalah koleksi data yang saling berhubungan (related). Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya)."
+  
+#### Variable 
+  > Disemua bahasa pemograman, variable adalah container/tempat untuk menyimpan sebuah nilai
+  - 3 hal yang dapat dilakukan pada variabel
+    > - Membuat variabel dengan nama yang jelas dan menggambarkan tentang data tersebut
+    > - Menyimpan dan mengupdate informasi/data yang disimpan
+    > - Mendapatkan/menampilan data yang tersimpan
+  
+  - Ada 3 cara mendefinisikan sebuah variabel.
+    > - var
+    > - let
+    > - const
+#### Operator
+  > Operator adalah instruksti yang digunakan untuk melakukaknsuatu proses.
+
+
+  
+
+
+
+  
   - Contoh Struktur Data menggunakan Javascript
   ```
   let buah = {
