@@ -239,11 +239,11 @@ console.log("Nama Saya :" + nama);
   ```
    let haus = true;
 if (haus) {
-  console.log("Jika haus kamu akan minum = " + haus);
+    console.log("Jika haus kamu akan minum = " + haus);
 }
 
-  
-  Output : Jika haus kamu akan minum = true
+
+Output : Jika haus kamu akan minum = true
   ```
   > Contoh IF Statement
   
