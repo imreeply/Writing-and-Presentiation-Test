@@ -185,10 +185,26 @@
   ## Day 4 : Algoritma dan Data Struktur
   ### Algortima
   - Algoritma adalah sederetan langkah-langkah logis yang disusun secara sistematis untuk memecahkan suatu masalah.
-  - Struktur data adalah cara penyimpanan , pengorganisasian , dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.
+  
   - Manfaat Algoritma
     - Membantu menyederhanakan suatu program yang rumit dan juga besar.
     - Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
+  
+  - Ciri - ciri Algortima
+    - Input "Memiliki 0 atau lebih inputan"
+    - Output "Memiliki 1 buah Output"
+    - Definiteness "Intruksi jelas, tidak ambigu"
+    - Finiteness "Memiliki titik berhenti"
+    - Effectiveness  "Sebisa mungkin tepat sasaran"
+  
+  - Cara penyajian Algoritma ada 3 :
+    - Deskriptif
+    > Penulisan algoritma dengan cara deskriptif seperti kita menulis tutorial (tata cara) dengan bahasa sehari-hari
+    - Flow Chart
+    > Flow chart atau diagram alir, penyajian algoritmanya lebih mudah dibaca karena memiliki tampilan visual.
+    - Pseudo Code
+    > Penulisan algoritma yg hampir menyerupai penulisan pada kode pemrograman disebut dengan pseudo code.
+  
   - Contoh Algoritma sederhana menggunakan javascript
   
    ```
