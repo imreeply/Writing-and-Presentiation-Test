@@ -64,7 +64,7 @@
   - **git log** untuk melihat catatan log perubahan pada respositori
   - **git pull** mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif
   
-  ## Day 2 : HTML
+## Day 2 : HTML
   - HTML adalah singkatan dari Hypertext Markup Language
   - HTML berfungsi untuk menampilkan konten pada browser
   - Tools yang digunakan untuk membuat HTML
@@ -169,7 +169,7 @@
   - Nested Element yaitu setiap element yang terdiri atas parent dan child
   - !important CSS yaitu styling CSS yang memiliki tingkat paling atas dari ID dan Class
   
-  ### Flexbox
+### Flexbox
   - Flexbox atau Flexible Box  merupakan sebuah mode pengaturan atau konsep layout pada CSS yang digunakan untuk mengatur elemen atau container beserta item didalamnya pada halaman web
   - Flexbox memiliki kemampuan untuk menyesuaikan layout secara otomatis.
   - Flexbox memiliki 1 parent/container dan bisa beberapa child/item.
@@ -182,8 +182,8 @@
   - **flex-shrink** digunakan untuk memperkecil size suatu item child secara relatif terhadap item child lainnya.
   - **flex-basis** digunakan untuk mengatur width setiap item child.
   
-  ## Day 4 : Algoritma dan Data Struktur
-  ### Algortima
+## Day 4 : Algoritma dan Data Struktur
+### Algortima
   - Algoritma adalah sederetan langkah-langkah logis yang disusun secara sistematis untuk memecahkan suatu masalah.
   
   - Manfaat Algoritma
