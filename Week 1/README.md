@@ -201,7 +201,7 @@
   - Contoh Algoritma *Pseudo Code* sederhana menggunakan javascript
   
    ```
-  let nama = "Reza";
+  const nama = "Reza";
 console.log("Nama Saya " + nama);
   
   Output : 
