@@ -16,7 +16,7 @@
     - Mengelola proses komputer.
     - Menjalan task berulang.
 
-  - Contoh dari Shell yaitu WindowsShell atau CMD *Commandline Prompt* 
+  - Contoh dari Shell yaitu WindowsShell atau CMD *Command Prompt* 
 
 ### File System
   - Sebuah proses yang mengatur dimana dan bagaimana sebuah data disimpan dan diakses dalam *Disk Penyimpanan*.
