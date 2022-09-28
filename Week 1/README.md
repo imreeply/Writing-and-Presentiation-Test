@@ -37,8 +37,8 @@
   - ``rm`` menghapus file, ``rm -R`` menghapus direktori
   
 ### Git & Github
-  - *GIT* adalah sebuah tools bagi para programmer dan developer yang berfungsi sebagai control system untuk menjalankan proyek pengembangan software.
-  - *Github* adalah platform atau layanan web host yang memungkinkan tim developer untuk bekerja bersama secara online
+  - *GIT* sebuah version control yang berfungsi sebagai control system untuk menjalankan proyek pengembangan software.
+  - *Github* sebuah platform atau layanan web host yang memungkinkan tim developer untuk bekerja bersama secara online, di github juga kita bisa menyimpan code yang kita buat secara cloud.
 
 ### Penggunaan GIT
   - ``$ git config --global user.name`` untuk melakukan konfigurasi username.
