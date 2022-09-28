@@ -1,25 +1,32 @@
 # Writing and Presentation Test Week 1
 
-## Day 1 : Apa itu CLI ?
+## Day 1 : Unix CommandLine
 
-### Unix Command Line 
-  - **Shell** adalah sebuah program utama untuk berinteraksi dengan Sistem Operasi.
-  - **Command Line Interface** adalah tampilan sebuah terminal yang digunakan untuk menjalankan program, mengelola file, dan berinteraksi dengan komputer. 
-    - SH 
-    - Bash
-    - Zsh
-    - CMD
-  - Cara membuka CLI 
-    -  Buka menu pada Windows Logo 
-    -  Ketik “Command Prompt” 
-    -  Pilih Command Prompt.
+### CLI / CommandLine Interface
+  - CLI adalah sebuah program dimana user dapat mengetikan sebuah perintah dalam bentuk teks untuk memberikan intruksi pada komputer untuk melakukan tugas tertentu.
+  
+### Shell
+  - Merupakan *User Interface* sebuah perintah yang diketik di CLI.
+  - Shell membaca dan mengartikan sebuah perintah yang diberikan oleh user.
+  - Lalu mengintruksikan sistem operasi untuk menjalankan task sesuai perintah.
+    
+  - Fungsi Shell
+    - Menangani File dan Direktori.
+    - Membuka dan menutup program.
+    - Mengelola proses komputer.
+    - Menjalan task berulang.
 
-### Navigasi Menggunakan CLI
-    - ``pwd`` digunakan untuk melihat current working direktori
-    - ``ls`` digunakan untuk melihat isi file yang ada pada sebuah direktori
-    - ``cd`` <direktori> digunakan untuk berpindah direktori
+  - Contoh dari Shell yaitu WindowsShell atau CMD *Commandline Prompt* 
 
-### Manupulasi File dan Directory
+### File System
+  - Sebuah proses yang mengatur dimana dan bagaimana sebuah data disimpan dan diakses dalam *Disk Penyimpanan*.
+  - Mengatur pengoperasian didalam sebuah *disk* yang terhubung ke komputer.
+  - Prosesnya tidak bisa dilihat oleh user yang menggunakan komputer tersebut.
+
+### Command / Perintah
+  - ``pwd`` digunakan untuk melihat current working direktori.
+  - ``ls`` digunakan untuk melihat isi file yang ada pada sebuah direktori.
+  - ``cd`` <direktori> digunakan untuk berpindah direktori.
   - ``head`` melihat isi awal file.
   - ``tail`` melihat isi akhir file.
   - ``cat`` melihat isi keseluruhan file.
