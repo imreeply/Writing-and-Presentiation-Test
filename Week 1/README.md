@@ -239,4 +239,92 @@ console.log("Nama Saya " + nama);
     > - var
     > - let
     > - const
+    
+### Operator
+  > Operator yaitu sebuah intruksi yang digunakan untuk melakukan suatu proses
+  - Operator Artimatika
 
+| Operator | Deskripsi      |
+| ----------- | :---------: | 
+| +  | Penjumlahan          | 
+| -  | Pengurangan          | 
+| *  | Perkalian            |
+| /  | Pembagian            | 
+| %  | Modulus              | 
+| ++ | Increment            |
+| -- | Decrement            |
+
+  - Operator Perbandingan
+
+| Operator | Deskripsi                    |
+| ----------- | :---------:               | 
+| ==  | Equal                             | 
+| !=  | Non Equal                         | 
+| === | Identical                         |
+| !== | Not Identical                     | 
+| >   | Lebih Besar                       | 
+| <   | Lebih Kecil                       |
+| >=  | Lebih besar sama dengan           |
+| <=  | Lebih kecil sama dengan           |
+
+  - Operator Logika
+
+| Operator | Deskripsi                    |
+| ----------- | :---------:               | 
+| && | and  | 
+| I I | or   | 
+| !  | not  |
+  
+## Day 5 : JS Dasar Conditional & Looping
+### Conditional
+  - Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
+   > - Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut
+   > - Yang dicek adalah apakah kondisi tersebut TRUE (benar). Jika TRUE maka code didalam kondisi tersebut dijalankan.
+
+  ```
+   let haus = true;
+if (haus) {
+    console.log(haus);
+}
+```
+  > Contoh IF Statement
+  
+   ```
+   let ngantuk = false;
+if (ngantuk) {
+    console.log('Ayo Tidur');
+}else{
+    console.log('Tidak Tidur')
+}
+```
+  > IF ELSE : mengeksekusi sebuah statement/code jika suatu kondisi bernilai FALSE
+  
+  ```
+ let stopLight = "kuning";
+
+if (stopLight === "merah") {
+    console.log("berhenti!");
+} else if (stopLight === "kuning") {
+    console.log("pelan pelan");
+} else if (stopLight === "hijau") {
+    console.log("jalan");
+} else {
+    console.log("Tidak diketahui");
+}
+  Output : pelan pelan
+
+  ```
+  > Else … If statement dapat kita gunakan jika kita mempunyai berbagai kondisi.
+
+
+### Looping
+  - Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
+  ```
+  for(let i = 0; i < 100; i++){
+  console.log(i)
+}
+  ```
+                         
+  > - Hitungan akan dimulai dari ``0 (i = 0);``
+  > - Hitungannya sampai berapa? Sampai ``i < 100;``
+  > - Lalu di setiap perulangan ``i`` akan bertambah ``+1 (i++).``
