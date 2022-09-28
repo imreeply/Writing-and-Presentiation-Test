@@ -6,7 +6,7 @@
   - CLI adalah sebuah program dimana user dapat mengetikan sebuah perintah dalam bentuk teks untuk memberikan intruksi pada komputer untuk melakukan tugas tertentu.
   
 ### Shell
-  - Merupakan *User Interface* sebuah perintah yang diketik di CLI.
+  - Merupakan *User Interface* yang mengelola sebuah perintah yang diketik di CLI.
   - Shell membaca dan mengartikan sebuah perintah yang diberikan oleh user.
   - Lalu mengintruksikan sistem operasi untuk menjalankan task sesuai perintah.
     
