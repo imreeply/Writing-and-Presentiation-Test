@@ -15,7 +15,6 @@
     -  Pilih Command Prompt.
 
 ### Navigasi Menggunakan CLI
-  - File System berfungsi untuk mengatur bagaimana data disimpan didalam sebuah sistem
     - ``pwd`` digunakan untuk melihat current working direktori
     - ``ls`` digunakan untuk melihat isi file yang ada pada sebuah direktori
     - ``cd`` <direktori> digunakan untuk berpindah direktori
