@@ -86,7 +86,7 @@
   
   - Tag dasar pada HTML : 
     - Single Tag
-      > Contoh : ``</br>``
+      > Contoh : ``<br />``
     - Double Tag
       > Contoh : ``<p>``  ``</p>``
     - Comment Tag 
