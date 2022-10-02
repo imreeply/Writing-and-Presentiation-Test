@@ -54,14 +54,183 @@ tampilPesan("Reza");
   > Contoh Penggunaan Arrow Function
   
 ## DAY 2 : Data Type Built in Prototype & Method
-## Tipe Data
-  - Tipe data yaitu berfungsi untuk membedakan tipe nilai satu dengan yang lainnya
-  - Tipe Data Primitive
+### Tipe Data
+  > Tipe data yaitu berfungsi untuk membedakan tipe nilai satu dengan yang lainnya.
+###
     
-    - String : Berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks.
+  - String : Berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks.
  ```
 const x = "Ini adalah string";
 const y = "Ini adalah string dengan kutip tunggal";
  ```
-    - Number : 
  
+ ```
+ // membuat method baru utk tipe data string ( Prototype )
+String.prototype.reverse = function(){
+  let a = ""
+  for (let i = String(this).length-1; i >= 0 ; i--) {
+    a = a + String(this)[i]
+  }
+
+  return a
+}
+
+// method yg dimiliki oleh string
+console.log("Yassap".reverse())
+console.log("Saya Reza".reverse())
+
+// function dgn argumen string
+// console.log(reverse("hallo"));
+ ```
+ 
+  - Number : Tipe Data Numbers adalah tipe data numerik yang menampung bilangan bulat.
+```
+let angka = 3.12345
+console.log(angka.toFixed(1)) // 3.1
+console.log(angka.toFixed(2)) // 3.12
+```
+
+  - Math : Adalah objek bawaan yang memiliki properti dan metode untuk konstanta dan fungsi matematika.
+```
+// properties
+console.log(Math.PI)
+
+// method
+console.log(Math.abs(-5)) // 5
+console.log(Math.ceil(5.2)) // 6
+console.log(Math.floor(5.6)) // 5
+console.log(Math.round(5.6)) // 6
+console.log(Math.round(5.2)) // 5
+console.log(Math.random()) 
+```
+
+### Primitif & Non Primitif
+  - Tipe Data Primitif
+    - String
+    - Number
+    - BigInt
+    - Boolean
+    - undefined
+    - null
+    - Symbol
+  - Tipe Data Non Primitif
+    - Object
+    - Array
+
+
+
+## DAY 3 : DOM - Introduction.
+  - Document Object Model atau DOM adalah Interface pemrograman untuk memanipulasi dokumen HTML, DOM mewakili dokumen HTML sebagai Tree atau Pohon, DOM menyediakan fungsi yang memungkinkan kita untuk menambah, menghapus dan memodifikasi bagian Dokumen secara efektif.
+### Selecting Element.
+   - Mengakses DOM.
+     - ``let document.getElementById()`` : Berdasarkan *Id*
+     - ``let document.getElementByName()`` : Berdasarkan *Name*
+     - ``let document.getElementsByClassName()`` : Berdasarkan *Class*
+     - ``let document.getElementsByTagName()`` : Berdasarkan *Tag Name*
+     - ``let document.querySelector()`` : Berdasarkan *CSS Selector*
+     
+### Traversing Element.
+  - ``let x = node.parentNode`` : Untuk mengambil *Parent* dari suatu Element
+  - ``let x = parentElement.firstChild`` : Untukk mengambil *Child* dari suatu Element
+  - ``let x = currentNode.nextElementSibling`` : Untuk mengambil *Siblings* dari suatu Element
+  
+## DAY 4 : DOM - Manipulating 
+### Manipulating Element.
+```
+let app = document.getElementById("app")
+```
+```
+app.innetHTML = "<h1>Hai</h1>
+```
+  > Memberikan Konten.
+  
+```
+let p = document.createElement("p")
+p.innerText = "ini adalah paragraf"
+```
+  > Membuat Element.
+ ```
+ app.append(p)
+ 
+ let p2 = document.createElement("p")
+ p2.innerText = "paragraf ke-2"
+ app.appendChild(p2)
+ ```
+   > Menambahkan child kedalam parent.
+ 
+ ```
+ let end = document.getElementById("end")
+ end.remove()
+ ```
+   > Remove Element.
+ 
+   - Manipulating Style.
+ ```
+ let testing = document.getElementById("testing")
+ let testingStyle = getComputedStyle(testing)
+ console.log(testingStyle.height)
+ ```
+   > Mengambil style dari Element.
+   
+## DAY 5 : Event & Form.
+### Event
+  - Event adalah aktifitas yang terjadi pada halaman website.
+  - Cara Membuat Event pada Paragraf.
+```
+let paragraf = document.getElementById("paragraf");
+
+paragraf.onclick = function () {
+  alert("ini dari paragraf");
+};
+```
+  - Membuat Event pada Button.
+```
+let button = document.getElementById("btn");
+button.addEventListener("click", function () {
+  alert("ini button");
+});
+```
+  - Membuat Confirm Event .
+```
+button.addEventListener("click", function () {
+  confirm("ini adalah button?");
+});
+```
+### Mengambil nilai atau Value pada Form.
+```
+let loginForm = document.querySelector("#login-form");
+let inputUsername = document.querySelector("#username");
+let inputPassword = document.querySelector("#password");
+
+// Mengambil value dari form.
+loginForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  console.log(inputUsername.value);
+  console.log(inputPassword.value);
+
+```
+  > Nilai akan diambil dari hasil input form.
+  - Menampilkan hasil dari value.
+```
+let userLogin = {
+    username: inputUsername.value,
+    password: inputPassword.value,
+  };
+
+  console.log(userLogin);
+  ```
+  > Nilai yang berhasil diambil akan ditampilkan di console.
+    - Mengecek apakah nilai ada atau tidak.
+ ```
+   if (userLogin.username == user.username && userLogin.password == user.password) {
+    console.log("login berhasil");
+  } else {
+    console.log("user tidak ditemukan");
+  }
+});
+ ```
+   > Jika nilai tidak ada, maka hasil outputnya user tidak ditemukan.
+ ```
+ loginForm.reset();
+ ```
+   > Berguna untuk mereset form setelah nilai diinput.
