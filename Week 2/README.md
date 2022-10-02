@@ -63,5 +63,5 @@ tampilPesan("Reza");
 const x = "Ini adalah string";
 const y = "Ini adalah string dengan kutip tunggal";
  ```
-    - String : Berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks.
+    - Number : 
  
