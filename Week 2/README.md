@@ -164,7 +164,7 @@ p.innerText = "ini adalah paragraf"
  ```
    > Remove Element.
  
-   - Manipulating Style.
+### Manipulating Style.
  ```
  let testing = document.getElementById("testing")
  let testingStyle = getComputedStyle(testing)
@@ -196,7 +196,7 @@ button.addEventListener("click", function () {
   confirm("ini adalah button?");
 });
 ```
-### Mengambil nilai atau Value pada Form.
+### Form.
 ```
 let loginForm = document.querySelector("#login-form");
 let inputUsername = document.querySelector("#username");
