@@ -1,4 +1,4 @@
-# Writing and Presentation Test Week 2
+# Writing and Presentation Test Week 3
 ## DAY 1 : Array 
 - Array adalah tipe data yang digunakan untuk mendeskripsikan kumpulan elemen (nilai/variable) yang tiap tiap elemennya memiliki index
 - Contoh Array
