@@ -175,22 +175,7 @@ function recursive() {
 ```
 > Recursive akan berhenti memanggil dirinya jika kondisi terpenuhi
 
-## Javascript Recursive
-> Recursive adalah function yang memanggil dirinya sendiri hingga kondisi tertentu
-- Struktur Recursive
-```
-function recursive() {
-    recursive();
-}
-```
-```
-function recursive() {
-    if(condition) 
-} else {
-    recursive();
-}
-```
-> Recursive akan berhenti memanggil dirinya jika kondisi terpenuhi
+
 
 ### JS Modules
  > Dengan JS Modules memungkinkan memisahkan kode menjadi file yang berbeda, Keuntungan dari modules yaitu mudah untuk mengelola kode serta kode tidak menumpuk di dalam satu file.
