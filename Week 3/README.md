@@ -1,5 +1,5 @@
-# DAY 1 : Array 
-## Array 
+# Writing and Presentation Test Week 2
+## DAY 1 : Array 
 - Array adalah tipe data yang digunakan untuk mendeskripsikan kumpulan elemen (nilai/variable) yang tiap tiap elemennya memiliki index
 - Contoh Array
 ```
@@ -69,7 +69,7 @@ console.log(buah);
  - .map()
  > Gunakan .map() untuk membuat array baru yang diisi dengan hasil panggilan fungsi yang disediakan pada setiap elemen kembali pada array.
 
-## Array Multidimensional
+### Array Multidimensional
 > Array Multidimensi adalah sebuah Array yang memiliki lebih dari satu subskrip atau Array didalam Array
 ```
 let mobil = [["Avanza"], ["Volvo"]];
