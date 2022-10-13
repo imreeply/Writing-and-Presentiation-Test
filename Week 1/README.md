@@ -329,3 +329,48 @@ for (let i = 0; i < 100; i++) {
   > - Hitungan akan dimulai dari ``0 (i = 0);``
   > - Hitungannya sampai berapa? Sampai ``i < 100;``
   > - Lalu di setiap perulangan ``i`` akan bertambah ``+1 (i++).``
+  
+  - While
+  > Proses perulangan akan terus berlanjut selama kondisinya bernilai benar (true) dan akan berhenti bila kondisinya bernilai salah.
+  ```
+  i = 1
+let isKetemu = false
+
+while (!isKetemu) {
+  if (
+    i % 2 == 0 && 
+    i % 3 == 0 && 
+    i % 4 == 0 && 
+    i % 5 == 0 &&
+    i % 6 == 0 
+    ) {
+      console.log(i);
+      isKetemu = true
+    }
+
+    i++
+}
+```
+
+- Do While 
+> Perulangan ini digunakan bila jumlah perulangan do - while sama saja dengan struktur while, hanya saja pasa proses seleksi kondisi letaknya berada di bawah batas perulangan.
+
+```
+i = 1
+isKetemu = false
+
+do {
+  if (
+    i % 2 == 0 && 
+    i % 3 == 0 && 
+    i % 4 == 0 && 
+    i % 5 == 0 &&
+    i % 6 == 0 
+    ) {
+      console.log(i);
+      isKetemu = true
+    }
+
+    i++
+} while (!isKetemu)
+```
