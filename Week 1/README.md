@@ -317,6 +317,7 @@ if (lampuJalan === "merah") {
 
 ### Looping
   - Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
+  - For Loop
   ```
 for (let i = 0; i < 100; i++) {
   console.log(i);
