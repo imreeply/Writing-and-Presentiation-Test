@@ -178,7 +178,7 @@ delete mahasiswa.address;
 console.log(mahasiswa);
 ```
 
-### Method
+### Method Object
 
 > Jika value yang kita masukkan pada property berupa function maka disebut method
 
@@ -193,11 +193,37 @@ const greeting = {
 };
 
 console.log(greeting.welcome());
+
 ```
 
+### Nested Object
+```
+let buku = {
+    judul: "Belajar HTML",
+    tahun: 2022,
+    penulis: {
+      penulis1: {
+        nama: "Reza",
+        umur: 21,
+        kota: "Pontianak",
+      },
+      penulis2: {
+        nama: "Ova",
+        umur: 19,
+        kota: "Bandung",
+      },
+    },
+  };
+  
+  console.log(buku);
+  console.log(buku.penulis.penulis1.nama);
+  console.log(buku.penulis.penulis2.umur);
+  ```
+  
 ### Looping Object
 
- - For In
+
+- For In
 
   ```
   let mahasiswa = {
@@ -212,7 +238,7 @@ console.log(greeting.welcome());
   }
   ```
 
- - For of
+- For of
 
   ```
   let mahasiswa = {
@@ -224,7 +250,7 @@ console.log(greeting.welcome());
   }
   ```
 
- - map
+- map
 
   ```
   let mahasiswa = {
@@ -242,23 +268,18 @@ console.log(greeting.welcome());
 
 > Recursive adalah function yang memanggil dirinya sendiri hingga kondisi tertentu
 
-- Struktur Recursive
-
 ```
-function recursive() {
-    recursive();
+function deretAngka(n){
+  if (n == 1) {
+    console.log(n)
+  } else {
+    deretAngka(n-1)
+    console.log(n);
+  }
 }
 ```
 
-```
-function recursive() {
-    if(condition)
-} else {
-    recursive();
-}
-```
-
-> Recursive akan berhenti memanggil dirinya jika kondisi terpenuhi
+> Menampilkan deret angka 12345, mencari solusi yang paling kecil
 
 ### JS Modules
 
@@ -278,6 +299,9 @@ let person = {
 
 ```
 // file 2.js
+
+import {person} from './file1.js';
+
 console.log(getFirstName());
 
 ```
