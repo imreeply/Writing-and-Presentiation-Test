@@ -197,6 +197,7 @@ console.log(greeting.welcome());
 ```
 
 ### Nested Object
+
 ```
 let buku = {
     judul: "Belajar HTML",
@@ -214,14 +215,13 @@ let buku = {
       },
     },
   };
-  
+
   console.log(buku);
   console.log(buku.penulis.penulis1.nama);
   console.log(buku.penulis.penulis2.umur);
-  ```
-  
-### Looping Object
+```
 
+### Looping Object
 
 - For In
 
@@ -338,14 +338,44 @@ console.log("Reza 3");
 - Contoh Promise
 
 ```
-let nontonOnePiece = new Promise((resolve, rejcet) => {
-  if (promise) {
-    resolve("Jadi Nonton");
-  } else {
-    reject("Gak jadi nonton");
-  }
-});
+let nonton = (kondisi) => {
+  return new Promise((resolve, rejcet) => {
+    if (kondisi == "jalan") {
+      resolve("Jadi Nonton");
+    }
+    rejcet("Gak jadi nonton");
+  });
+};
 
+```
+
+- Cara Promise dengan then dan catch
+
+```
+nonton()
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+```
+
+> Jika berhasil maka akan masuk ke `.then`, jika gagal maka akan masuk ke `.catch`
+
+- Menangkap dengan Async
+
+```
+async function asyncNonton() {
+    try {
+        let result = await nonton();
+        console.log(result);
+    }catch (error) {
+        console.log(error)
+    }
+
+}
 ```
 
 ## DAY 5 : Web Storage
