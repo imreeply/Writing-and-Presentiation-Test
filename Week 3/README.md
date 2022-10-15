@@ -364,7 +364,7 @@ nonton()
 
 > Jika berhasil maka akan masuk ke `.then`, jika gagal maka akan masuk ke `.catch`
 
-- Menangkap dengan Async
+- Menangkap dengan Async await
 
 ```
 async function asyncNonton() {
