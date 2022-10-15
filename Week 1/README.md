@@ -52,7 +52,7 @@
   - ``$ git remote add origin`` untuk menghubungkan remote repository dengan project lokal yang telah kita buat direktorinya
   - ``$ git push -u origin main`` untuk mengirimkan perubahan file setelah di commit ke remote repository
   - ``git checkout`` untuk menukar branch yang aktif dengan branchyang dipilih
-  - ``git clone`` untuk membuat salinan repository lokal
+  - ``git clone`` untuk membuat salinan repository github ke lokal
   - ``git log`` untuk melihat catatan log perubahan pada respositori
   - ``git pull`` mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif
   
