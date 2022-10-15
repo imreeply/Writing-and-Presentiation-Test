@@ -54,7 +54,7 @@ getDataDigimon();
 - Git Revert
   > Git Revert adalah sebuah perintah untuk mengembalikan kondisi file yang ada sebelumnya, dan akan digabungkan dengan commit-an terakhir saat ini, `git revert` lebih aman digunakan daripada `git reset`, karena tidak akan menghapus catatan log git sebelumnnya
 
-## DAY 3 : Responesive Web Design
+## DAY 3 : Responesive Web Design dan Bootstrap
 
 > Responesive Web Design adalah agar desain website bisa dapat dilihat atau diakses pada device apapun.
 
@@ -69,8 +69,8 @@ getDataDigimon();
   > Ini berguna untuk mendesain website yang responsive karena ukurannya bisa berubah relatif terhadap parent atau ukuran layar
 - Flex dan Grid
   > Flex dan Grid sama-sama berfungsi untuk mengatur tampilan sebuah halaman web menjadi lebih terstruktur dan rapi. Perbedaannya hanya terletak pada arah pembagian dimensinya saja.
-
-## DAY 4 : Bootstrap 5
+  
+ ### Bootstrap 5
 
 > Bootstrap adalah sebuah framework untuk front-end dapat mmebuat sebuah website dengan cepat.
 
