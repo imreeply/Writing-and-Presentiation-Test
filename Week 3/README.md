@@ -314,8 +314,9 @@ console.log(getFirstName());
 
 - Asynchronous
   > Kode yang dieksekusi tanpa menunggu urutan dinamakan Asynchronous, Sebuah kode yang dijalankan secara Asynchronous akan membiarkan kode di bawahnya juga berjalan sehingga kode bisa berjalan bersamaan.
+  > Yaitu kode yang dieksekusi tanpa menunggu urutuan atau tak beraturan, kode yang dijalankan secara Asynchronous akan membiarkan kode dibawahnya juga berjalan, sehingga kode bisa berjalan bersamaa
 - Synchronous
-  > Kode yang dieksekusi secara berurutan dinamakan dengan Synchronous code execution. Pada contoh pada artikel sebelumnya kita menggunakan Synchronous.
+  > Adalah kode yang dieksekusi secara berurutan, jika kode yang diatas belum selesai dieksekusi, maka kode yang dibawah tidak akan berjalan.
 - Callback
   > function yg dijadikan sebagai argumen Ketika sesuatu memerlukan waktu yang lama, maka dia akan masuk kedalam callback queue lalu menjalankan proses yang berada di belakangnya. Jika proses yg belakang sudah selesai, maka engine akan memeriksa yang ada didalam callback queue untuk dijalankan.
 
