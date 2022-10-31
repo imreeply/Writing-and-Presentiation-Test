@@ -1,4 +1,4 @@
-##ReactJS - Introduction
+## ReactJS - Introduction
 
 - React adalah sebuah library JavaScript yang digunakan untuk membangun user interface yang interaktif. Library ini dibuat oleh Facebook dan bersifat open source. Library ini sangat populer digunakan dan selalu dikembangkan baik oleh kontributor utama ataupun komunitas.
 
@@ -10,7 +10,7 @@
   - `npm install -g create-react-app` cara biasa
   - `npm create vite@latest my-react-app --template react` menggunakan ViteJS
 
-##React - JSX
+## React - JSX
 
 - JSX (Javascript Syntax Extension) adalah sebuah ekstensi React untuk Javascript, Sintaks JSX mirip seperti HTML dimana kita dapat lebih mudah menyusun elemen pada komponen React.
 
@@ -20,7 +20,7 @@ const element = <h1>Hello World</h1>
 
 > Contoh penggunaan Sintaks pada JSX
 
-##React - Component
+## React - Component
 
 - Function Component atau Statless Component yaitu component yang didefinisikan menggunakan function.
 
@@ -55,7 +55,7 @@ export default WelcomeComponent;
   - Function Component hanya bisa menggunakan `props` itu sebabnya component ini sebut `Stateless Component`
   - Class Component dapat menggunakan `state` dan `props`
 
-###React - State & Props
+### React - State & Props
 
 - State adalah data privat pada sebuah component, data ini hanya tersedia untuk component tersebut dan tidak bisa diakses dari component lain.
 
@@ -80,7 +80,7 @@ const Card = (name) => {
 
 ```
 
-###React - Lifecycle
+### React - Lifecycle
 
 - Lifecycle bisa diartikan sebagai siklus hidup. ada component - component pada react yang melewati 3 fase hidup
   - Mounting
@@ -111,7 +111,7 @@ function MyComponent(name) {
 
 ```
 
-###React - Form
+### React - Form
 Form dapat digunakan untuk menginput sebuah data oleh user, Form dapat digunakan juga untuk mengambil suatu inputan dari user menggunakan hooks.
 
 ```
